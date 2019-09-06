@@ -1,5 +1,6 @@
 ### 665. Non-decreasing Array
->描述：Given an array with n integers, your task is to check if it could become non-decreasing by modifying at most 1 element. 
+>描述：对于数组array，如果最多修改一个元素，即可成为递增数组（array[i] <= array[i + 1]），那么输出true。否则输出false。n∈[1, 10,000]。
+Given an array with n integers, your task is to check if it could become non-decreasing by modifying at most 1 element. 
 We define an array is non-decreasing if array[i] <= array[i + 1] holds for every i (1 <= i < n). 
 Example 1:
 Input: [4,2,3]
@@ -7,7 +8,7 @@ Output: True
 Example 2:
 Input: [4,2,1]
 Output: False
-Note: The n belongs to [1, 10,000].
+>Note: The n belongs to [1, 10,000].
 
 1. 顺序检查凹变段和逆序检查凸变段。
 如果满足，则asc和desc中的较小值必然不大于1。
@@ -44,7 +45,7 @@ bool checkPossibility(vector<int>& nums) {
         return cnt<=1;
     } 
 ```
-3. 当找到第一个反例（nums[i] > nums[i+1]）的时候，观察数组的其余部分是否按升序排序（没有nums [i]）OR（没有nums [i + 1]）。[来自](https://leetcode.com/problems/non-decreasing-array/discuss/106835/Very-easy-to-understand-C%2B%2B)
+3. 当找到第一个反例（nums[i] > nums[i+1]）的时候，观察数组的其余部分是否按升序排序（没有nums [i]）OR（没有nums [i + 1]）。如果是，输出true。否则输出false。[来自](https://leetcode.com/problems/non-decreasing-array/discuss/106835/Very-easy-to-understand-C%2B%2B)
 ```
 class Solution {
 public:
