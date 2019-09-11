@@ -1,6 +1,8 @@
 
+
 ### 1139. Largest 1-Bordered Square
->描述：Medium
+>描述：有一个元素为0或1的矩阵。求矩阵中元素均为1的最大正方形中的元素个数。
+难度Medium
 Given a 2D grid of 0s and 1s, return the number of elements in the largest square subgrid that has all 1s on its border, or 0 if such a subgrid doesn't exist in the grid.
 [题解参考](https://www.geeksforgeeks.org/given-matrix-o-x-find-largest-subsquare-surrounded-x/)
 ```
