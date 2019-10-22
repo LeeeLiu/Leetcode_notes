@@ -8,4 +8,4 @@ typical questions：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 
 ### 
-持续更新中
+持续整理中
