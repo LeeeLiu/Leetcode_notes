@@ -7,7 +7,9 @@
 2. 分治：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 3. [背包系列](./backpack/背包系列)
-
+4. 排序
+    - [冒泡](./sort/463.整数排序.md)
+    - [快排、归并](./sort/464.整数排序II.md)
 
 ### 
 持续整理中
