@@ -1,4 +1,4 @@
-﻿## Leetcode_solution
+﻿## leetcode、lintcode笔记
 
 ### typical questions：
 1. 链表反转
@@ -10,6 +10,8 @@
 4. 排序
     - [冒泡](./sort/463.整数排序.md)
     - [快排、归并](./sort/464.整数排序II.md)
+5. 树
+    - [二叉树遍历](./tree/BinaryTreeTraversal.md)
 
 ### 
 持续整理中
