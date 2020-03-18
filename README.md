@@ -18,8 +18,8 @@
     - [单源+多源有权图：Dijstra+Floyd](./graph/743.network-delay-time.md)
 7. 输出所有路径
     - [单源-无权图](./graph/121.word-ladderII.md)
-8. 生成树
-    - [最小生成树]()
+8. 并查集
+    - [情侣牵手](./unionFind/765.couples_holding_hands.md)
 
 
 ### 
