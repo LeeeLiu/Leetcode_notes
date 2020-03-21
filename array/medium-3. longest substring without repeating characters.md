@@ -1,20 +1,19 @@
 
 ### 3. Longest Substring Without Repeating Characters
->描述：难度Medium
-Given a string, find the length of the longest substring without repeating characters.
-Example 1:
-Input: "abcabcbb"
-Output: 3 
-Explanation: The answer is "abc", with the length of 3. 
-Example 2:
-Input: "bbbbb"
-Output: 1
-Explanation: The answer is "b", with the length of 1.
-Example 3:
-Input: "pwwkew"
-Output: 3
-Explanation: The answer is "wke", with the length of 3. 
-(Note that the answer must be a substring, "pwke" is a subsequence and not a substring.)
+- 描述：Given a string, find the length of the longest substring without repeating characters.
+-   Example 1:
+    Input: "abcabcbb"
+    Output: 3 
+    Explanation: The answer is "abc", with the length of 3. 
+    Example 2:
+    Input: "bbbbb"
+    Output: 1
+    Explanation: The answer is "b", with the length of 1.
+    Example 3:
+    Input: "pwwkew"
+    Output: 3
+    Explanation: The answer is "wke", with the length of 3. 
+    (Note that the answer must be a substring, "pwke" is a subsequence and not a substring.)
 
 1. 方法：维护一个滑动窗口，向右滑动--> O(n) time。窗口内都是不重复的字符，尽可能扩大窗口的大小。
  - 如果当前遍历到的字符`出现过`，则缩小窗口（这个字符的pre_pos在窗口内，将左边界win_start替换为pre_pos）或者窗口左边界不变（这个字符的pre_pos在窗口外部左侧）。

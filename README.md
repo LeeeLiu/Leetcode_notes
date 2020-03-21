@@ -7,6 +7,7 @@
 2. 分治：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 3. 动态规划
+    - [最长公共子序列](./DP/1143.LongestCommonSubsequence.md)
     - [背包系列](./backpack/背包系列.md)
     - [最值型、计数型、存在型](./summary/动态规划.md)
 4. 排序
