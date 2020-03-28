@@ -11,6 +11,9 @@
 5 落单的数
 6 Πr²
 2. Next level: Bronze I
-1 串里找某个子串：28.Implement strStr()
+1 [13.字符串查找]Implement strStr()
     rabin-hash是O(n)复杂度
-2 53.翻转字符串中的单词
+2 [53.翻转字符串中的单词]
+3 字符串里是否含有重复字符
+4 [846.多关键字排序]
+5 

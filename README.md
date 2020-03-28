@@ -13,6 +13,7 @@
 4. 排序
     - [冒泡](./sort/463.整数排序.md)
     - [快排、归并](./sort/464.整数排序II.md)
+    - [桶排序](./sort/multi-keyword-sort.md)
 5. 树
     - [二叉树遍历](./tree/BinaryTreeTraversal.md)
 6. 图的最短路
