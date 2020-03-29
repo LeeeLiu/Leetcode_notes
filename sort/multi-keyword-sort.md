@@ -2,7 +2,7 @@
 ### 846. 多关键字排序
 >来自lintcode
 1. 描述：
-给定 n 个学生的学号id(从 1 到 n 编号)以及他们的考试成绩score，表示为(学号，考试成绩)，请将这些学生按考试成绩降序排序，若考试成绩相同，则按学号升序排序。
+给定 n 个学生的学号id(从 1 到 n 编号)以及他们的考试成绩score(范围0~100整数)，表示为(学号，考试成绩)，请将这些学生按考试成绩降序排序，若考试成绩相同，则按学号升序排序。
 2. 根据桶排序的思路，有主位优先和次位优先两个策略。
 	- 方法1，主位优先：先以成绩score作为键值建桶（每个桶里装多个id）；再对每个桶里的id排序；合并结果。
     ```
@@ -65,4 +65,44 @@
             // Write your code here
         }
     };
+    ```
+    - 方法3，[偷懒的做法](#3)
+    ```
+    class Solution {
+    public:
+        bool static cmp(vector<int>&a ,vector<int>&b)
+        {
+            if(a[1]>b[1])   return true;            
+            if(a[1]==b[1] && a[0]<b[0])   return true;            
+            return false;
+        }
+        vector<vector<int>> multiSort(vector<vector<int>> &array) {
+            sort(array.begin(),array.end(), cmp);
+            return array;
+            // Write your code here
+        }
+    };
+    ```
+3. <p id="3">对于方法3的解释：方法1，2的前提是，id和score取值范围都已知。如果未知呢？</p>
+- 使用内置函数，结构体排序
+- 有结构体node。先按照w的值升序排序；
+- 如果w相等，再按照v的值升序排序。
+    ```
+    struct node
+    {
+        int u, v, w;
+    };
+    ```
+    ```
+    bool cmp(node a, node b)
+    {
+        if(a.w==b.w)
+            return a.v<b.v;
+        else
+            return a.w<b.w;
+    }
+    ```
+    ```
+    vector<node> &array;
+    sort(array.begin(), array.end(), cmp);
     ```
