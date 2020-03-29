@@ -13,7 +13,7 @@
 4. 排序
     - [冒泡](./sort/463.整数排序.md)
     - [快排、归并](./sort/464.整数排序II.md)
-    - [桶排序](./sort/multi-keyword-sort.md)
+    - [桶/多关键字排序](./sort/multi-keyword-sort.md)
 5. 树
     - [二叉树遍历](./tree/BinaryTreeTraversal.md)
 6. 图的最短路
@@ -25,6 +25,8 @@
     - [情侣牵手](./unionFind/765.couples_holding_hands.md)
 9. 比特位
     - [落单数字](./bitmanipulation/136.SingleNumber.md)
+10. 二分查找
+    - [在排序数组里找插入位置](./binarySearch/search-insert-position.md)
 
 
 ### 
