@@ -1,0 +1,36 @@
+
+class Solution {
+public:
+    int getWays(vector<int>& A, int k) {        
+        vector<int>one_combine;
+        vector<vector<int>>res;
+        int v = 0;
+        find(A, k, v, one_combine, res);
+        return res.size();
+        // write your code here
+    }
+    void find(vector<int>& A, int k, int v, vector<int>& one_combine, vector<vector<int>>& res)
+    {
+        if(one_combine.size()==k && isPrime(one_combine))
+        {
+            res.push_back(one_combine);
+            return;
+        }
+        for(int i=v; i<A.size(); i++)
+        {
+            one_combine.push_back(A[i]);
+            find(A, k, i+1, one_combine, res);
+            one_combine.pop_back();
+        }
+    }
+    bool isPrime(vector<int>& one_combine){
+        int num = 0;
+        for(int i=0; i<one_combine.size(); i++)
+            num += one_combine[i];
+
+        for(int i=2; i<=sqrt(num); i++)
+            if(num % i == 0)
+                return false;
+        return true;
+    }
+};

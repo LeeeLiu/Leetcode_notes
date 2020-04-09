@@ -1,0 +1,30 @@
+
+// 链表元素是排序好的：小->大。插入一个元素。返回这个链表。
+class Solution {
+public:
+    ListNode * insertNode(ListNode * head, int val) {
+        if(head==NULL)
+        {
+            head = new ListNode(val);
+            return head;
+        }
+        ListNode * res = new ListNode(-1);
+        res->next = head;
+        ListNode * p = res;
+        while(p->next!=NULL)
+        {
+            if(val <= p->next->val)
+            {
+                ListNode * e = new ListNode(val);
+                e->next = p->next;
+                p->next = e;
+                return res->next;
+            }
+            p = p->next;
+        }
+        // 当元素插在末尾位置
+        p->next = new ListNode(val);
+        return res->next;
+        // write your code here
+    }
+};

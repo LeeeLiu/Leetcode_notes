@@ -1,0 +1,34 @@
+class Solution {
+public:
+    /**
+     * @param nums: an array of integers
+     * @return: the number of unique integers
+     */
+    int deduplication(vector<int> &nums) {
+        if(!nums.empty())
+        {
+            map<int, int>times;
+            int i=0, j=nums.size()-1;
+            for(; i<=j; )
+            {
+                if(times[nums[i]]>0)
+                {
+                    if(times.count(nums[j])==0)
+                    {
+                        times[nums[j]]++;
+                        swap(nums[i], nums[j]);
+                        i++;
+                    }
+                        j--;
+                }
+                else{
+                    times[nums[i]]++;
+                    i++;
+                }
+            }
+            return times.size();
+        }
+        return 0;
+        // write your code here
+    }
+};

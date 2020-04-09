@@ -13,6 +13,7 @@
 4. 排序
     - [冒泡](./sort/463.整数排序.md)
     - [快排、归并](./sort/464.整数排序II.md)
+        - [利用快排，找K大/小元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
     - [桶/多关键字排序](./sort/multi-keyword-sort.md)
 5. 树
     - [二叉树遍历](./tree/BinaryTreeTraversal.md)
