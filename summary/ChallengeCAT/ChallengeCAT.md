@@ -48,3 +48,5 @@
    - 7 [1668.区间最小覆盖](./1668.IntervalMinimumCoverage.cpp)
    - 8 [1670.回合制游戏](https://blog.csdn.net/weixin_43981315/article/details/103930762)
 7. Next level: Silver III
+    - 1 [74.第一个错误的代码版本]
+    - 2 [搜索旋转排序数组]
