@@ -1,7 +1,7 @@
 
 ### Coding Ability Test™
 >Evaluate your coding ability by LintCode CAT™ Get your certificate with unique number!
->[link](https://www.lintcode.com/cat/)
+>>[link](https://www.lintcode.com/cat/)
 
 1. Next level: Bronze I
     - 1 two sum
@@ -47,6 +47,15 @@
    - 6 [1667.区间统计](https://www.jiuzhang.com/solution/1667-interval-statistics/)
    - 7 [1668.区间最小覆盖](./1668.IntervalMinimumCoverage.cpp)
    - 8 [1670.回合制游戏](https://blog.csdn.net/weixin_43981315/article/details/103930762)
-7. Next level: Silver III
+7. Next level: Silver III（以下考察的都是二分法）
     - 1 [74.第一个错误的代码版本]
-    - 2 [搜索旋转排序数组]
+    - 2 [62.搜索旋转排序数组]
+    - 3 [在排序数组里找target区间]
+    - 4 [75.寻找峰值]
+    - 5 [159.寻找旋转排序数组中的最小值](./159.FindMinimuminRotatedSortedArray.cpp)
+    - 6 [63.搜索旋转排序数组II](./63.SearchinRotatedSortedArrayII.md)
+    - 7 [1671.玩游戏](https://www.jiuzhang.com/solution/1671-play-game/)
+        * 用了公式
+    - 8 [1753.写作业](./1753.DoingHomework.cpp)
+8. Next level: Silver IV    
+    - 1 [945.任务计划](https://leetcode.com/problems/task-scheduler/)
