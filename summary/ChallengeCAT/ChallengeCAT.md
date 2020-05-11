@@ -57,10 +57,13 @@
     - 7 [1671.玩游戏](https://www.jiuzhang.com/solution/1671-play-game/)
         * 用了公式
     - 8 [1753.写作业](./1753.DoingHomework.cpp)
-8. Next level: Silver IV    
-    - 1 [945.任务计划](https://leetcode.com/problems/task-scheduler/discuss/104496/concise-Java-Solution-O(N)-time-O(26)-space)  力扣621
+8. Next level: Silver IV
+    - 1 [945.任务计划](https://leetcode.com/problems/task-scheduler/discuss/104496/concise-Java-Solution-O(N)-time-O(26)-space)  
+        * 力扣621
+        * 见笔记本
     - 2 [12.带最小值操作的栈]  力扣155
     - 3 [40.用栈实现队列] 力扣232
     - 4 [608.两数和II-输入已排序的数组](./two-sum-ii-input-array-is-sorted.cpp)
     - 5 [229.栈排序](./sort-of-stacks.md)
+    - 6 [384.最长无重复字符的子串](../../array/3.longest-substring-without-repeating-characters.md)
         
