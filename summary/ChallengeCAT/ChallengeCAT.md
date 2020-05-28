@@ -66,4 +66,8 @@
     - 4 [608.两数和II-输入已排序的数组](./two-sum-ii-input-array-is-sorted.cpp)
     - 5 [229.栈排序](./sort-of-stacks.md)
     - 6 [384.最长无重复字符的子串](../../array/3.longest-substring-without-repeating-characters.md)
-        
+    - 7 [栈的压入、弹出序列](./validate-stack-sequences.cpp)
+        * [剑指offer第22题](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/solution/mian-shi-ti-31-zhan-de-ya-ru-dan-chu-xu-lie-mo-n-2/)        
+        * [力扣主站946题](https://leetcode.com/problems/validate-stack-sequences/)
+    - 8 [1673. 存钱]
+9. Next level: Gold I
