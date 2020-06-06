@@ -71,3 +71,10 @@
         * [力扣主站946题](https://leetcode.com/problems/validate-stack-sequences/)
     - 8 [1673. 存钱]
 9. Next level: Gold I
+    - [797.到达一个数字]
+        * (https://leetcode.com/problems/reach-a-number/discuss/357047/With-Full-explanation-and-approach-to-reach-solution-or-Mathematical-solution-w)
+        * (https://leetcode.com/problems/reach-a-number/discuss/188999/Throw-Out-All-Fucking-Explanations-This-is-nice-explanation-(c%2B%2B)-I-think-.......)
+        * (https://leetcode.com/problems/reach-a-number/discuss/214847/n-steps-can-reach-n*(n%2B1)2-n*(n%2B1)2)
+        * (https://leetcode.com/problems/reach-a-number/discuss/357047/With-Full-explanation-and-approach-to-reach-solution-or-Mathematical-solution-w)
+    - [1479.能否到达终点](./1479-can-reach-the-endpoint.cpp)
+    - []
