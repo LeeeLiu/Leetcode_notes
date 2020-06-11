@@ -77,4 +77,5 @@
         * (https://leetcode.com/problems/reach-a-number/discuss/214847/n-steps-can-reach-n*(n%2B1)2-n*(n%2B1)2)
         * (https://leetcode.com/problems/reach-a-number/discuss/357047/With-Full-explanation-and-approach-to-reach-solution-or-Mathematical-solution-w)
     - [1479.能否到达终点](./1479-can-reach-the-endpoint.cpp)
-    - []
+    - [242.将二叉树按照层级转化为链表](../../tree/convert-binary-tree-to-linked-lists-by-depth.cpp)
+    - [买卖股票的最佳时机V] 可以同时多笔交易：CAT专属
