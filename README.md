@@ -31,7 +31,7 @@
     - [第一个错误的代码版本](./binarySearch/74.first-bad-version.cpp)
     - [搜索旋转排序数组](./binarySearch/33.SearchinRotatedSortedArray.md)
 11. 买卖股票类
-    - [交易1次→次数不限→最多2次→最多k次](./array/123.BestTimetoBuyandSellStockIII.md)
+    - [不能同时多笔交易（交易1次→次数不限→最多2次→最多k次）👉可以同时多笔交易](./array/123.BestTimetoBuyandSellStockIII.md)
 
 ### 
 持续整理中

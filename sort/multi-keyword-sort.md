@@ -83,26 +83,27 @@
         }
     };
     ```
-3. <p id="3">对于方法3的解释：方法1，2的前提是，id和score取值范围都已知。如果未知呢？</p>
-- 使用内置函数，结构体排序
-- 有结构体node。先按照w的值升序排序；
-- 如果w相等，再按照v的值升序排序。
-    ```
-    struct node
-    {
-        int u, v, w;
-    };
-    ```
-    ```
-    bool cmp(node a, node b)
-    {
-        if(a.w==b.w)
-            return a.v<b.v;
-        else
-            return a.w<b.w;
-    }
-    ```
-    ```
-    vector<node> &array;
-    sort(array.begin(), array.end(), cmp);
-    ```
+3. <p id="3">对于方法3的解释：</p>
+    `方法1，2的前提是，id和score取值范围都已知`。如果未知呢？
+    - 使用内置函数，结构体排序
+    - 有结构体node。先按照w的值升序排序；
+    - 如果w相等，再按照v的值升序排序。
+        ```
+        struct node
+        {
+            int u, v, w;
+        };
+        ```
+        ```
+        bool cmp(node a, node b)
+        {
+            if(a.w==b.w)
+                return a.v<b.v;
+            else
+                return a.w<b.w;
+        }
+        ```
+        ```
+        vector<node> &array;
+        sort(array.begin(), array.end(), cmp);
+        ```

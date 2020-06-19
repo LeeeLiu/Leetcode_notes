@@ -11,7 +11,7 @@
     - 5 落单的数
     - 6 Πr²
 2. Next level: Bronze II
-   - 1 [13.字符串查找]Implement strStr()
+   - 1 [13.字符串查找]Implement strStr()  目前方法是暴力…
         rabin-hash是O(n)复杂度
    - 2 [53.翻转字符串中的单词]
    - 3 字符串里是否含有重复字符
@@ -77,5 +77,12 @@
         * (https://leetcode.com/problems/reach-a-number/discuss/214847/n-steps-can-reach-n*(n%2B1)2-n*(n%2B1)2)
         * (https://leetcode.com/problems/reach-a-number/discuss/357047/With-Full-explanation-and-approach-to-reach-solution-or-Mathematical-solution-w)
     - [1479.能否到达终点](./1479-can-reach-the-endpoint.cpp)
+    - [二叉树层次遍历]
     - [242.将二叉树按照层级转化为链表](../../tree/convert-binary-tree-to-linked-lists-by-depth.cpp)
-    - [买卖股票的最佳时机V] 可以同时多笔交易：CAT专属
+    - [1691.买卖股票的最佳时机V：可以同时多笔交易](./1691.best-time-to-buy-and-sell-stock-v.cpp)
+        * 使用了第K小元素方法
+    - [区间异或]    直接做
+    - [1675.SuperMaze] BFS。目前runtime error，通过数据50％
+    - [1674.Pouring cola](./Pouringcola.cpp)
+    - [1650. Legal Article](./legal-article.cpp)
+10. Next level: Gold II

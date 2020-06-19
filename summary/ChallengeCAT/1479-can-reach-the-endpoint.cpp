@@ -1,4 +1,5 @@
 
+[地址](https://www.lintcode.com/problem/can-reach-the-endpoint/description)
 
 // 大小为 m*n 的map
 // 1 代表空地，0 代表障碍物，9代表终点。
@@ -6,6 +7,7 @@
 // 请问如果你从 (0, 0) 开始能否到达终点？
 
 // 思路：BFS。
+// 易错点：边界控制。
 
 class Solution {
 public:
@@ -38,5 +40,37 @@ public:
         
         return false;
         // Write your code here
+    }
+};
+
+// 两种方法本质无区别
+class Solution {
+public:
+    /**
+     * @param matrix: the matrix
+     * @return: can you reach the endpoint
+     */
+    bool reachEndpoint(vector<vector<int>> &matrix) {
+        int m = matrix.size();
+        int n = matrix[0].size();
+        queue<pair<int,int>>Q;
+        Q.push(make_pair(0,0));
+        pair<int,int>cur;
+        while(!Q.empty())
+        {
+            cur = Q.front();
+            Q.pop();
+            int i = cur.first;
+            int j = cur.second;
+            if((i+1<m && matrix[i+1][j]==9) || (j+1<n && matrix[i][j+1]==9))
+                return true;
+            
+            if(i+1<m && matrix[i+1][j]==1)
+                Q.push(make_pair(i+1, j));
+            if(j+1<n && matrix[i][j+1]==1)
+                Q.push(make_pair(i, j+1));
+        }
+        return false;
+        
     }
 };
