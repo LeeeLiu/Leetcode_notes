@@ -1,7 +1,27 @@
 
 
 // 方法1：优先队列/堆（通过）
-[题解](https://www.jiuzhang.com/problem/best-time-to-buy-and-sell-stock-v/)
+[来自](https://www.jiuzhang.com/problem/best-time-to-buy-and-sell-stock-v/)
+class Solution {
+public:    
+    int getAns(vector<int> &a) {
+        priority_queue<int, vector<int>, greater<int> > minheap;
+        int res = 0;
+        for (int k : a) {
+            // 如果k比之前遇到过的最低价高
+            if (minheap.size() > 0 && k > minheap.top()) {
+                // 收益就是当前k - 遇到过的最低价
+                res += k - minheap.top();
+                minheap.pop();
+                minheap.push(k);   
+            }
+            // 同时将当前值压入队列
+            minheap.push(k);
+        }
+        return res;
+    }
+};
+
 
 // 方法2：超时。仅通过80％测试数据。
 class Solution {

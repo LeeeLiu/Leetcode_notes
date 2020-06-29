@@ -10,11 +10,13 @@
     - [最长公共子序列](./DP/1143.LongestCommonSubsequence.md)
     - [背包系列](./backpack/背包系列.md)
     - [最值型、计数型、存在型](./summary/动态规划.md)
+    - [单词拆分](./DP/139.word-break.md)
 4. 排序
     - [冒泡](./sort/463.整数排序.md)
     - [快排、归并](./sort/464.整数排序II.md)
         - [利用快排，找K大/小元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
     - [桶/多关键字排序](./sort/multi-keyword-sort.md)
+    - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 5. 树
     - [二叉树遍历](./tree/BinaryTreeTraversal.md)
 6. 图的最短路
@@ -32,6 +34,10 @@
     - [搜索旋转排序数组](./binarySearch/33.SearchinRotatedSortedArray.md)
 11. 买卖股票类
     - [不能同时多笔交易（交易1次→次数不限→最多2次→最多k次）👉可以同时多笔交易](./array/123.BestTimetoBuyandSellStockIII.md)
+12. 堆
+    - [215.找K大元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
+13. 滑动窗口
+    - [3.没有重复字母的最长Substring](./array/3.longest-substring-without-repeating-characters.md)
+    - [209.长度最小的子数组](./array/209.minimum-size-subarray-sum.md)
 
-### 
-持续整理中
+###  持续整理中
