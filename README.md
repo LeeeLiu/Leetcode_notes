@@ -35,6 +35,7 @@
     - [在排序数组里找插入位置](./binarySearch/search-insert-position.md)
     - [第一个错误的代码版本](./binarySearch/74.first-bad-version.cpp)
     - [搜索旋转排序数组](./binarySearch/33.SearchinRotatedSortedArray.md)
+    - [有序矩阵中第K小的元素](./binarySearch/378.kth-smallest-element-in-a-sorted-matrix.md)
 11. 买卖股票类
     - [不能同时多笔交易（交易1次→次数不限→最多2次→最多k次）👉可以同时多笔交易](./array/123.BestTimetoBuyandSellStockIII.md)
 12. 堆
