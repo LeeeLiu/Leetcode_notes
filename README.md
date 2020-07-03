@@ -22,6 +22,10 @@
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 5. 树
     - [二叉树遍历](./tree/BinaryTreeTraversal.md)
+    - [BST(binary-search-tree,二叉搜索树)](./tree/balance-a-binary-search-tree.md)
+
+        
+
 6. 图的最短路
     - [单源-无权图](./graph/120.word-ladder.md)
     - [单源+多源有权图：Dijstra+Floyd](./graph/743.network-delay-time.md)
