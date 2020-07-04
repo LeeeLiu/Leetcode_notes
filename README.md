@@ -7,6 +7,7 @@
 2. 分治：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 3. 动态规划
+    - [最长有效括号](./DP/32.longest-valid-parentheses.md)
     - [子序列/子串：公共长度问题]
         * [两数组公共、最长的`子序列`长度](./DP/1143.LongestCommonSubsequence.md)
         * [两数组公共、最长的`子/串数组`长度](./DP/718.maximum-length-of-repeated-subarray.md)
@@ -23,7 +24,6 @@
 5. 树
     - [二叉树遍历](./tree/BinaryTreeTraversal.md)
     - [BST(binary-search-tree,二叉搜索树)](./tree/balance-a-binary-search-tree.md)
-
         
 
 6. 图的最短路
