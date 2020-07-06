@@ -7,6 +7,10 @@
 2. 分治：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 3. 动态规划
+    - [从左上角到右下角有多少种走法]
+        * [无障碍物](./DP/62.Unique-Paths.md)
+        * [有障碍物](./DP/63.uniquePathsWithObstacles.cpp)
+    - [44.通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/solution/tong-pei-fu-pi-pei-by-leetcode-solution/)    [对着答案做的，尚未整理笔记]
     - [最长有效括号](./DP/32.longest-valid-parentheses.md)
     - [子序列/子串：公共长度问题]
         * [两数组公共、最长的`子序列`长度](./DP/1143.LongestCommonSubsequence.md)
