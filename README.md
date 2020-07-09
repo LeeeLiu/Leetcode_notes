@@ -10,7 +10,7 @@
     - [从左上角到右下角有多少种走法]
         * [无障碍物](./DP/62.Unique-Paths.md)
         * [有障碍物](./DP/63.uniquePathsWithObstacles.cpp)
-    - [44.通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/solution/tong-pei-fu-pi-pei-by-leetcode-solution/)    [对着答案做的，尚未整理笔记]
+    - [44.通配符匹配(需二刷)](https://leetcode-cn.com/problems/wildcard-matching/solution/tong-pei-fu-pi-pei-by-leetcode-solution/)
     - [最长有效括号](./DP/32.longest-valid-parentheses.md)
     - [子序列/子串：公共长度问题]
         * [两数组公共、最长的`子序列`长度](./DP/1143.LongestCommonSubsequence.md)
@@ -26,6 +26,9 @@
     - [桶/多关键字排序](./sort/multi-keyword-sort.md)
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 5. 树
+    - 字典树
+        * [17.13.恢复空格(需二刷)](./tree/re-space-lcci.md)：`单词拆分`DP思路会超时👉字典树+DP
+        
     - [路径总和](./tree/112.path-sum.md)
     - [二叉树遍历](./tree/BinaryTreeTraversal.md)
     - [BST(binary-search-tree,二叉搜索树)](./tree/balance-a-binary-search-tree.md)        
