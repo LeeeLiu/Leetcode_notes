@@ -57,5 +57,8 @@
 13. 滑动窗口
     - [3.没有重复字母的最长Substring](./array/3.longest-substring-without-repeating-characters.md)
     - [209.长度最小的子数组](./array/209.minimum-size-subarray-sum.md)
+14. BFS
+    - [785.判断二分图](./graph/785.is-graph-bipartite.md)
+    - [能否到达终点](./summary/ChallengeCAT/1479-can-reach-the-endpoint.cpp)
 
 ###  持续整理中
