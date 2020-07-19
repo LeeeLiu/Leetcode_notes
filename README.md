@@ -46,6 +46,8 @@
 9. 比特位
     - [落单数字](./bitmanipulation/136.SingleNumber.md)
 10. 二分查找
+    - [两数之和II：有序数组](./binarySearch/167.two-sum-ii-input-array-is-sorted.md)
+        * 也可以双指针
     - [在排序数组里找插入位置](./binarySearch/search-insert-position.md)
     - [第一个错误的代码版本](./binarySearch/74.first-bad-version.cpp)
     - [搜索旋转排序数组](./binarySearch/33.SearchinRotatedSortedArray.md)
