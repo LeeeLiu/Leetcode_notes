@@ -7,6 +7,7 @@
 2. 分治：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 3. 动态规划
+    - [戳气球](./DP/312.burst-balloons.md)
     - [三角形最小路径和](./DP/120.triangle.md)
     - [从左上角到右下角]
         * [救公主-最低初始血量(需二刷)](./DP/174.dungeon-game.md)
