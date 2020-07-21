@@ -34,7 +34,9 @@
         
     - [路径总和](./tree/112.path-sum.md)
     - [二叉树遍历](./tree/BinaryTreeTraversal.md)
-    - [BST(binary-search-tree,二叉搜索树)](./tree/balance-a-binary-search-tree.md)        
+    - [BST(binary-search-tree,二叉搜索树)]
+        * [由1-n生成所有BST](./tree/95.unique-binary-search-trees-ii.md)
+        * [AVL](./tree/balance-a-binary-search-tree.md)
 
 6. 图的最短路
     - [单源-无权图](./graph/120.word-ladder.md)
