@@ -10,6 +10,7 @@
     - [戳气球](./DP/312.burst-balloons.md)
     - [三角形最小路径和](./DP/120.triangle.md)
     - [从左上角到右下角]
+        * [最小路径和](64.minimum-path-sum.cpp)
         * [救公主-最低初始血量(需二刷)](./DP/174.dungeon-game.md)
         * [无障碍物-有多少种走法](./DP/62.Unique-Paths.md)
         * [有障碍物-有多少种走法](./DP/63.uniquePathsWithObstacles.cpp)
