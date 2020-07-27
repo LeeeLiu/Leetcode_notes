@@ -81,6 +81,7 @@
 
 
 ### BFS: 层序遍历
+- 遍历结果转化为数组/链表。例题2道如下。
 - [出处](https://www.lintcode.com/problem/binary-tree-level-order-traversal/leaderboard)
 ```
 vector<vector<int>> levelOrder(TreeNode * root) {

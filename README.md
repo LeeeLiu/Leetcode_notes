@@ -7,10 +7,11 @@
 2. 分治：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 3. 动态规划
-    - [戳气球](./DP/312.burst-balloons.md)
+    - 区间型
+        * [戳气球](./DP/312.burst-balloons.md)
     - [三角形最小路径和](./DP/120.triangle.md)
     - [从左上角到右下角]
-        * [最小路径和](64.minimum-path-sum.cpp)
+        * [最小路径和](./DP/64.minimum-path-sum.cpp)
         * [救公主-最低初始血量(需二刷)](./DP/174.dungeon-game.md)
         * [无障碍物-有多少种走法](./DP/62.Unique-Paths.md)
         * [有障碍物-有多少种走法](./DP/63.uniquePathsWithObstacles.cpp)
@@ -19,7 +20,6 @@
     - [子序列/子串：公共长度问题]
         * [两数组公共、最长的`子序列`长度](./DP/1143.LongestCommonSubsequence.md)
         * [两数组公共、最长的`子/串数组`长度](./DP/718.maximum-length-of-repeated-subarray.md)
-
     - [背包系列](./backpack/背包系列.md)
     - [最值型、计数型、存在型](./summary/动态规划.md)
     - [单词拆分](./DP/139.word-break.md)
@@ -34,7 +34,9 @@
         * [17.13.恢复空格(需二刷)](./tree/re-space-lcci.md)：`单词拆分`DP思路会超时👉字典树+DP
         
     - [路径总和](./tree/112.path-sum.md)
-    - [二叉树遍历](./tree/BinaryTreeTraversal.md)
+    - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
+    - [二叉树最大深度 dfs](./tree/104.maximum-depth-of-binary-tree.cpp)
+
     - [BST(binary-search-tree,二叉搜索树)]
         * [由1-n生成所有BST](./tree/95.unique-binary-search-trees-ii.md)
         * [AVL](./tree/balance-a-binary-search-tree.md)
@@ -71,5 +73,6 @@
 14. BFS
     - [785.判断二分图](./graph/785.is-graph-bipartite.md)
     - [能否到达终点](./summary/ChallengeCAT/1479-can-reach-the-endpoint.cpp)
-
+15. 双指针
+    - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
 ###  持续整理中
