@@ -23,6 +23,8 @@
     - [背包系列](./backpack/背包系列.md)
     - [最值型、计数型、存在型](./summary/动态规划.md)
     - [单词拆分](./DP/139.word-break.md)
+    - [整数拆分](./DP/343.integer-break.md)
+
 4. 排序
     - [冒泡](./sort/463.整数排序.md)
     - [快排、归并](./sort/464.整数排序II.md)
@@ -36,6 +38,7 @@
     - [路径总和](./tree/112.path-sum.md)
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
     - [二叉树最大深度 dfs](./tree/104.maximum-depth-of-binary-tree.cpp)
+    - [114.二叉树-原地-单链表-前序序列(需二刷)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/submissions/)
 
     - [BST(binary-search-tree,二叉搜索树)]
         * [由1-n生成所有BST](./tree/95.unique-binary-search-trees-ii.md)
@@ -75,4 +78,9 @@
     - [能否到达终点](./summary/ChallengeCAT/1479-can-reach-the-endpoint.cpp)
 15. 双指针
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
+16. 模拟加法
+    - [字符串数字相加](./array/415.add-strings.cpp)
+    - [链表相加-反序](\list\2.add-two-numbers.md)
+    
+
 ###  持续整理中
