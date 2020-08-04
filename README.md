@@ -32,6 +32,7 @@
     - [桶/多关键字排序](./sort/multi-keyword-sort.md)
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 5. 树
+    - [dfs+DP：打家劫舍III](./tree/337.house-robber-iii.md)
     - 字典树
         * [17.13.恢复空格(需二刷)](./tree/re-space-lcci.md)：`单词拆分`DP思路会超时👉字典树+DP
         
