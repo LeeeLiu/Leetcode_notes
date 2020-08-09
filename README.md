@@ -6,6 +6,9 @@
     - [指定区域反转](https://github.com/LeeeLiu/Leetcode_notes/blob/master/list/92.%20Reverse%20Linked%20List%20II.md)
 2. 分治：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
+3. 回溯/递归
+    - [全排列-无重复数字](./backtracking/46.permutations.md)
+
 3. 动态规划
     - 区间型
         * [戳气球](./DP/312.burst-balloons.md)
@@ -32,9 +35,13 @@
     - [桶/多关键字排序](./sort/multi-keyword-sort.md)
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 5. 树
+    - [判断两个二叉树是否相同](https://leetcode-cn.com/problems/same-tree/)
     - [dfs+DP：打家劫舍III](./tree/337.house-robber-iii.md)
     - 字典树
+        * [336.回文对(需二刷)](https://leetcode-cn.com/problems/palindrome-pairs/)
+        * [字典树基本操作](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/trie-tree-de-shi-xian-gua-he-chu-xue-zhe-by-huwt/)
         * [17.13.恢复空格(需二刷)](./tree/re-space-lcci.md)：`单词拆分`DP思路会超时👉字典树+DP
+            + 字典树里反序插入单词
         
     - [路径总和](./tree/112.path-sum.md)
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
