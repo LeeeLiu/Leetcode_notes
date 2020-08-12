@@ -8,6 +8,7 @@
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 3. 回溯/递归
     - [全排列-无重复数字](./backtracking/46.permutations.md)
+    - [列举子集](./backtracking/78.subsets.md)
 
 3. 动态规划
     - 区间型
@@ -51,10 +52,14 @@
     - [BST(binary-search-tree,二叉搜索树)]
         * [由1-n生成所有BST](./tree/95.unique-binary-search-trees-ii.md)
         * [AVL](./tree/balance-a-binary-search-tree.md)
+6. BFS
+    - [拓扑排序-课程表](./graph/207.course-schedule.md)
+    - [785.判断二分图](./graph/785.is-graph-bipartite.md)
+    - [能否到达终点](./summary/ChallengeCAT/1479-can-reach-the-endpoint.cpp)
+    - 图的最短路
+        - [单源-无权图](./graph/120.word-ladder.md)
+        - [单源+多源有权图：Dijstra+Floyd](./graph/743.network-delay-time.md)
 
-6. 图的最短路
-    - [单源-无权图](./graph/120.word-ladder.md)
-    - [单源+多源有权图：Dijstra+Floyd](./graph/743.network-delay-time.md)
 7. 输出所有路径
     - [单源-无权图](./graph/121.word-ladderII.md)
 8. 并查集
@@ -81,15 +86,15 @@
 13. 滑动窗口
     - [3.没有重复字母的最长Substring](./array/3.longest-substring-without-repeating-characters.md)
     - [209.长度最小的子数组](./array/209.minimum-size-subarray-sum.md)
-14. BFS
-    - [拓扑排序-课程表](./graph/207.course-schedule.md)
-    - [785.判断二分图](./graph/785.is-graph-bipartite.md)
-    - [能否到达终点](./summary/ChallengeCAT/1479-can-reach-the-endpoint.cpp)
 15. 双指针
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
 16. 模拟加法
     - [字符串数字相加](./array/415.add-strings.cpp)
     - [链表相加-反序](\list\2.add-two-numbers.md)
-    
+17. 字符串
+    - [计数二进制子串](./array/696.count-binary-substrings.md)
+        + 没有奇技淫巧
+18. 图
+    - [克隆图](./graph/133.clone-graph.md)
 
 ###  持续整理中
