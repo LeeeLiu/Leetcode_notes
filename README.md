@@ -96,5 +96,7 @@
         + 没有奇技淫巧
 18. 图
     - [克隆图](./graph/133.clone-graph.md)
+19. 栈
+    - [有效的括号](./stack/20.valid-parentheses.cpp)
 
 ###  持续整理中
