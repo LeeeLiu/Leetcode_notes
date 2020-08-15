@@ -11,6 +11,9 @@
     - [列举子集](./backtracking/78.subsets.md)
 
 3. 动态规划
+    - [背包系列](./backpack/背包系列.md)
+    - [最值型、计数型、存在型](./summary/动态规划.md)
+    
     - 区间型
         * [戳气球](./DP/312.burst-balloons.md)
     - [三角形最小路径和](./DP/120.triangle.md)
@@ -24,10 +27,9 @@
     - [子序列/子串：公共长度问题]
         * [两数组公共、最长的`子序列`长度](./DP/1143.LongestCommonSubsequence.md)
         * [两数组公共、最长的`子/串数组`长度](./DP/718.maximum-length-of-repeated-subarray.md)
-    - [背包系列](./backpack/背包系列.md)
-    - [最值型、计数型、存在型](./summary/动态规划.md)
     - [单词拆分](./DP/139.word-break.md)
     - [整数拆分](./DP/343.integer-break.md)
+
 
 4. 排序
     - [冒泡](./sort/463.整数排序.md)
