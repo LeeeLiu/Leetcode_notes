@@ -38,6 +38,10 @@
     - [桶/多关键字排序](./sort/multi-keyword-sort.md)
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 5. 树
+    - 二叉树深度
+        - [求 最大深度 dfs](./tree/104.maximum-depth-of-binary-tree.cpp)
+        - [判断 二叉树 是否平衡 dfs嵌套dfs](./tree/110.balanced-binary-tree.cpp)
+    
     - [判断两个二叉树是否相同](https://leetcode-cn.com/problems/same-tree/)
     - [dfs+DP：打家劫舍III](./tree/337.house-robber-iii.md)
     - 字典树
@@ -48,7 +52,7 @@
         
     - [路径总和](./tree/112.path-sum.md)
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
-    - [二叉树最大深度 dfs](./tree/104.maximum-depth-of-binary-tree.cpp)
+        
     - [114.二叉树-原地-单链表-前序序列(需二刷)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/submissions/)
 
     - [BST(binary-search-tree,二叉搜索树)]
@@ -97,6 +101,7 @@
     - [计数二进制子串](./array/696.count-binary-substrings.md)
         + 没有奇技淫巧
 18. 图
+    - [图像渲染 dfs](./graph/733.flood-fill.cpp)
     - [克隆图](./graph/133.clone-graph.md)
 19. 栈
     - [有效的括号](./stack/20.valid-parentheses.cpp)
