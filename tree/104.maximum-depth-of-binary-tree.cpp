@@ -13,7 +13,7 @@ public:
         if(root==NULL)
            return 0;
         int left_depth = dfs(root->left);        
-        int right_depth =  dfs(root->right);
+        int right_depth = dfs(root->right);
         return max(left_depth, right_depth) +1;
     }
     int maxDepth(TreeNode* root) {
