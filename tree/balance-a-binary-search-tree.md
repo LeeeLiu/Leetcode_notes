@@ -1,4 +1,4 @@
-
+    
 
 ## 两道题：关于BST(binary-search-tree,二叉搜索树)
 1. 回顾：
@@ -44,8 +44,7 @@
             }
             else{
                 return NULL;
-            }
-        
+            }        
         }
 
         TreeNode* balanceBST(TreeNode* root) {

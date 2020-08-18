@@ -1,9 +1,11 @@
 ﻿## leetcode、lintcode笔记
 
 ### Typical Questions：
-1. 链表反转
-    - [整个反转](https://github.com/LeeeLiu/Leetcode_notes/blob/master/list/206%EF%BC%8C234.md)
-    - [指定区域反转](https://github.com/LeeeLiu/Leetcode_notes/blob/master/list/92.%20Reverse%20Linked%20List%20II.md)
+1. 链表
+    - [快慢指针 找中间结点](./list/876.middle-of-the-linked-list.cpp)
+    - 链表反转
+        - [整个反转](https://github.com/LeeeLiu/Leetcode_notes/blob/master/list/206%EF%BC%8C234.md)
+        - [指定区域反转](https://github.com/LeeeLiu/Leetcode_notes/blob/master/list/92.%20Reverse%20Linked%20List%20II.md)
 2. 分治：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 3. 回溯/递归
@@ -55,9 +57,15 @@
         
     - [114.二叉树-原地-单链表-前序序列(需二刷)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/submissions/)
 
-    - [BST(binary-search-tree,二叉搜索树)]
+    - [BST(binary-search-tree,二叉搜索/排序/查找树)]
         * [由1-n生成所有BST](./tree/95.unique-binary-search-trees-ii.md)
-        * [AVL](./tree/balance-a-binary-search-tree.md)
+        * [BST变AVL(平衡BST)](./tree/balance-a-binary-search-tree.md)
+        * [由 递增 数组/链表 序列 建AVL](./tree/109.convert-sorted-list-to-binary-search-tree.md)
+
+18. 图
+    - [图像渲染 dfs](./graph/733.flood-fill.cpp)
+    - [克隆图 dfs bfs](./graph/133.clone-graph.md)
+
 6. BFS
     - [拓扑排序-课程表](./graph/207.course-schedule.md)
     - [785.判断二分图](./graph/785.is-graph-bipartite.md)
@@ -96,13 +104,10 @@
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
 16. 模拟加法
     - [字符串数字相加](./array/415.add-strings.cpp)
-    - [链表相加-反序](\list\2.add-two-numbers.md)
+    - [链表相加-反序](.\list\2.add-two-numbers.md)
 17. 字符串
     - [计数二进制子串](./array/696.count-binary-substrings.md)
         + 没有奇技淫巧
-18. 图
-    - [图像渲染 dfs](./graph/733.flood-fill.cpp)
-    - [克隆图](./graph/133.clone-graph.md)
 19. 栈
     - [有效的括号](./stack/20.valid-parentheses.cpp)
 
