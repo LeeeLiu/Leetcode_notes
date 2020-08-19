@@ -110,5 +110,8 @@
         + 没有奇技淫巧
 19. 栈
     - [有效的括号](./stack/20.valid-parentheses.cpp)
-
+20. 回文
+    - 子串类
+        + [最长 回文 子串](.\array\5.LongestPalindromicSubstring.md)
+        + [回文 子串 个数](.\array\647.palindromic-substrings.md)
 ###  持续整理中
