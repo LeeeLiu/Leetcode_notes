@@ -41,6 +41,7 @@
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 5. 树
     - 二叉树深度
+        - [求 最小深度 dfs/BFS](./tree/111.minimum-depth-of-binary-tree.md)
         - [求 最大深度 dfs](./tree/104.maximum-depth-of-binary-tree.cpp)
         - [判断 二叉树 是否平衡 dfs嵌套dfs](./tree/110.balanced-binary-tree.cpp)
     
@@ -54,7 +55,7 @@
         
     - [路径总和](./tree/112.path-sum.md)
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
-        
+    
     - [114.二叉树-原地-单链表-前序序列(需二刷)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/submissions/)
 
     - [BST(binary-search-tree,二叉搜索/排序/查找树)]

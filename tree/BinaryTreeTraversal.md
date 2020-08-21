@@ -109,7 +109,6 @@ vector<vector<int>> levelOrder(TreeNode * root) {
             CurLevel.clear();
         }
         return res;
-
     }
 ```
 - [242.将二叉树按照层级转化为链表](./convert-binary-tree-to-linked-lists-by-depth.cpp)
