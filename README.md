@@ -79,7 +79,7 @@
     - [单源-无权图](./graph/121.word-ladderII.md)
 8. 并查集
     - [情侣牵手](./unionFind/765.couples_holding_hands.md)
-9. 比特位
+9. 位运算
     - [落单数字](./bitmanipulation/136.SingleNumber.md)
 10. 二分查找
     - [两数之和II：有序数组](./binarySearch/167.two-sum-ii-input-array-is-sorted.md)
