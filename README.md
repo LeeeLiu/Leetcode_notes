@@ -104,9 +104,12 @@
     - [209.长度最小的子数组](./array/209.minimum-size-subarray-sum.md)
 15. 双指针
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
-16. 模拟加法
-    - [字符串数字相加](./array/415.add-strings.cpp)
-    - [链表相加-反序](.\list\2.add-two-numbers.md)
+16. 模拟
+    - [657.机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin/)
+        + 太简单 就不记笔记了 (1)坐标模拟x==0且y==0 (2)L==R且U==D
+    - 加法
+        - [字符串数字相加](./array/415.add-strings.cpp)
+        - [链表相加-反序](.\list\2.add-two-numbers.md)
 17. 字符串
     - [计数二进制子串](./array/696.count-binary-substrings.md)
         + 没有奇技淫巧
