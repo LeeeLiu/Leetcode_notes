@@ -65,6 +65,7 @@
         * [由 递增 数组/链表 序列 建AVL](./tree/109.convert-sorted-list-to-binary-search-tree.md)
 
 18. 图
+    - [钥匙和房间 dfs bfs](841.keys-and-rooms.md)
     - [图像渲染 dfs](./graph/733.flood-fill.cpp)
     - [克隆图 dfs bfs](./graph/133.clone-graph.md)
 
@@ -105,6 +106,7 @@
 15. 双指针
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
 16. 模拟
+    - [557.反转字符串中的单词III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
     - [657.机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin/)
         + 太简单 就不记笔记了 (1)坐标模拟x==0且y==0 (2)L==R且U==D
     - 加法
