@@ -8,10 +8,12 @@
         - [指定区域反转](https://github.com/LeeeLiu/Leetcode_notes/blob/master/list/92.%20Reverse%20Linked%20List%20II.md)
 2. 分治：
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
+
 3. 回溯/递归
     - [全排列-无重复数字](./backtracking/46.permutations.md)
     - [列举子集](./backtracking/78.subsets.md)
     - [电话号码的字母组合](./backtracking/17.letter-combinations-of-a-phone-number.md)
+    - [预测赢家 dfs或DP ](./DP/486.predict-the-winner.md)
     
 3. 动态规划
     - [背包系列](./backpack/背包系列.md)
