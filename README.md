@@ -55,8 +55,12 @@
         * [字典树基本操作](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/trie-tree-de-shi-xian-gua-he-chu-xue-zhe-by-huwt/)
         * [17.13.恢复空格(需二刷)](./tree/re-space-lcci.md)：`单词拆分`DP思路会超时👉字典树+DP
             + 字典树里反序插入单词
-        
-    - [路径总和](./tree/112.path-sum.md)
+    - 路径
+        - [路径总和](./tree/112.path-sum.md)
+        - [257.二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
+            + dfs二叉树遍历。path在局部（不需pop）、在全局（需要pop，但是，有2个测试用例，你不知道pop多少）
+
+    
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
     
     - [114.二叉树-原地-单链表-前序序列(需二刷)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/submissions/)
