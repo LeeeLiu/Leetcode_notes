@@ -14,6 +14,7 @@
     - [列举子集](./backtracking/78.subsets.md)
     - [电话号码的字母组合](./backtracking/17.letter-combinations-of-a-phone-number.md)
     - [预测赢家 dfs或DP ](./DP/486.predict-the-winner.md)
+    - [1~n中所有可能的k个数的组合](./backtracking/77.combinations.md)
     
 3. 动态规划
     - [背包系列](./backpack/背包系列.md)
