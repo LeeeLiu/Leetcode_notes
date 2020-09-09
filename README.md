@@ -10,12 +10,17 @@
     - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
 
 3. 回溯/递归
-    - [全排列-无重复数字](./backtracking/46.permutations.md)
-    - [列举子集](./backtracking/78.subsets.md)
-    - [电话号码的字母组合](./backtracking/17.letter-combinations-of-a-phone-number.md)
-    - [预测赢家 dfs或DP ](./DP/486.predict-the-winner.md)
-    - [1~n中所有可能的k个数的组合](./backtracking/77.combinations.md)
+    + 全排列问题，用visited变量；
+        - [全排列-无重复数字](./backtracking/46.permutations.md)     
+    + 组合问题，用start变量。
+        - [电话号码的字母组合](./backtracking/17.letter-combinations-of-a-phone-number.md)
+        - [列举子集](./backtracking/78.subsets.md)
+        - [1~n中所有可能的k个数的组合](./backtracking/77.combinations.md)
+        - [找出数组(可重复选取)中和为target的组合](./backtracking/39.combination-sum.md)
     
+    + 其它
+        - [预测赢家 dfs或DP ](./DP/486.predict-the-winner.md)
+   
 3. 动态规划
     - [背包系列](./backpack/背包系列.md)
     - [最值型、计数型、存在型](./summary/动态规划.md)
