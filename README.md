@@ -16,7 +16,8 @@
         - [电话号码的字母组合](./backtracking/17.letter-combinations-of-a-phone-number.md)
         - [列举子集](./backtracking/78.subsets.md)
         - [1~n中所有可能的k个数的组合](./backtracking/77.combinations.md)
-        - [找出数组(可重复选取)中和为target的组合](./backtracking/39.combination-sum.md)
+        - [组合总和：数组(可重复选取)中和为target的组合](./backtracking/39.combination-sum.md)
+        - [组合总和II](./backtracking/40.combination-sum-ii.cpp)
     
     + 其它
         - [预测赢家 dfs或DP ](./DP/486.predict-the-winner.md)
