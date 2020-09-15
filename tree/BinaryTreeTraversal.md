@@ -79,37 +79,40 @@
             待补充。
 
 
-
 ### 二、BFS: 层序遍历
-- 遍历结果转化为数组/链表。例题2道如下。
-- [出处](https://www.lintcode.com/problem/binary-tree-level-order-traversal/leaderboard)
-```
-vector<vector<int>> levelOrder(TreeNode * root) {
-        queue<TreeNode*> Q;
-        int i, CurLevelCount;
-        vector<int>  CurLevel;
-        vector<vector<int>> res;
-        if(root==NULL)
-            return res;
-            
-        Q.push(root);       // BFS
-        while(!Q.empty())
-        {
-            CurLevelCount = Q.size();   //for循环为了组织每一层的节点
-            for (i=0; i<CurLevelCount; i++)
-            {
-                root = Q.front();   //访问队列最头边的节点
-                CurLevel.push_back(root->val);  //记录每一层里每个节点
+1. 实现
+    ```
+    vector<vector<int>> levelOrder(TreeNode * root) {
+            queue<TreeNode*> Q;
+            int i, CurLevelCount;
+            vector<int>  CurLevel;
+            vector<vector<int>> res;
+            if(root==NULL)
+                return res;
                 
-                Q.pop();    //每出队一个节点，就把该节点的孩子入队。
-                if(root->left!=NULL)  Q.push(root->left);
-                if(root->right!=NULL) Q.push(root->right);
+            Q.push(root);       // BFS
+            while(!Q.empty())
+            {
+                CurLevelCount = Q.size();   //for循环为了组织每一层的节点
+                for (i=0; i<CurLevelCount; i++)
+                {
+                    root = Q.front();   //访问队列最头边的节点
+                    CurLevel.push_back(root->val);  //记录每一层里每个节点
+                    
+                    Q.pop();    //每出队一个节点，就把该节点的孩子入队。
+                    if(root->left!=NULL)  Q.push(root->left);
+                    if(root->right!=NULL) Q.push(root->right);
+                }
+                res.push_back(CurLevel);    //把一层的节点放进res
+                CurLevel.clear();
             }
-            res.push_back(CurLevel);    //把一层的节点放进res
-            CurLevel.clear();
+            return res;
         }
-        return res;
-    }
-```
-- [242.将二叉树按照层级转化为链表](./convert-binary-tree-to-linked-lists-by-depth.cpp)
-- [637.二叉树的层平均值](./637.average-of-levels-in-binary-tree.cpp)
+    ```
+
+2. 相关题目
+    - 遍历结果转化为数组/链表。例题2道如下。
+        - [出处](https://www.lintcode.com/problem/binary-tree-level-order-traversal/leaderboard)
+        - [242.将二叉树按照层级转化为链表](./convert-binary-tree-to-linked-lists-by-depth.cpp)
+    
+    - [637.二叉树的层平均值](./637.average-of-levels-in-binary-tree.cpp)
