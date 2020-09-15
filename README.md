@@ -11,7 +11,8 @@
 
 3. 回溯/递归
     + 全排列问题，用visited变量；
-        - [全排列-无重复数字](./backtracking/46.permutations.md)     
+        - [全排列-无重复数字](./backtracking/46.permutations.md)
+        - [单词搜索](./backtracking/79.word-search.md)
     + 组合问题，用start变量。
         - [电话号码的字母组合](./backtracking/17.letter-combinations-of-a-phone-number.md)
         - [列举子集](./backtracking/78.subsets.md)
@@ -50,6 +51,8 @@
     - [桶/多关键字排序](./sort/multi-keyword-sort.md)
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 5. 树
+    - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
+    
     - 二叉树深度
         - [求 最小深度 dfs/BFS](./tree/111.minimum-depth-of-binary-tree.md)
         - [求 最大深度 dfs](./tree/104.maximum-depth-of-binary-tree.cpp)
@@ -65,10 +68,7 @@
     - 路径
         - [路径总和](./tree/112.path-sum.md)
         - [257.二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
-            + dfs二叉树遍历。path在局部（不需pop）、在全局（需要pop，但是，有2个测试用例，你不知道pop多少）
-
-    
-    - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
+            + dfs二叉树遍历。path在局部（不需pop）、在全局（需要pop，但是，有2个测试用例，你不知道pop多少）        
     
     - [114.二叉树-原地-单链表-前序序列(需二刷)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/submissions/)
 
@@ -78,7 +78,7 @@
         * [由 递增 数组/链表 序列 建AVL](./tree/109.convert-sorted-list-to-binary-search-tree.md)
 
 18. 图
-    - [钥匙和房间 dfs bfs](841.keys-and-rooms.md)
+    - [钥匙和房间 dfs bfs](./graph/841.keys-and-rooms.md)
     - [图像渲染 dfs](./graph/733.flood-fill.cpp)
     - [克隆图 dfs bfs](./graph/133.clone-graph.md)
 
