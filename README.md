@@ -53,6 +53,8 @@
 5. 树
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
     
+    - [翻转二叉树 dfs/BFS](./tree/226.invert-binary-tree.md)
+
     - 二叉树深度
         - [求 最小深度 dfs/BFS](./tree/111.minimum-depth-of-binary-tree.md)
         - [求 最大深度 dfs](./tree/104.maximum-depth-of-binary-tree.cpp)
