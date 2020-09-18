@@ -12,6 +12,7 @@
 3. 回溯/递归
     + 全排列问题，用visited变量；
         - [全排列-无重复数字](./backtracking/46.permutations.md)
+        - [全排列-有重复](./backtracking/47.permutations-ii.cpp)
         - [单词搜索](./backtracking/79.word-search.md)
     + 组合问题，用start变量。
         - [电话号码的字母组合](./backtracking/17.letter-combinations-of-a-phone-number.md)
