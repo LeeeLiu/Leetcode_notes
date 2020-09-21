@@ -54,6 +54,7 @@
 5. 树
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
     
+    - [404.左叶子之和](我是用dfs做的)
     - [翻转二叉树 dfs/BFS](./tree/226.invert-binary-tree.md)
 
     - 二叉树深度
