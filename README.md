@@ -80,7 +80,7 @@
         * [由1-n生成所有BST](./tree/95.unique-binary-search-trees-ii.md)
         * [BST变AVL(平衡BST)](./tree/balance-a-binary-search-tree.md)
         * [由 递增 数组/链表 序列 建AVL](./tree/109.convert-sorted-list-to-binary-search-tree.md)
-
+        * [BST->累加树：反向中序](./tree/538.convert-bst-to-greater-tree.cpp)
 18. 图
     - [钥匙和房间 dfs bfs](./graph/841.keys-and-rooms.md)
     - [图像渲染 dfs](./graph/733.flood-fill.cpp)
