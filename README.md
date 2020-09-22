@@ -44,18 +44,20 @@
     - [单词拆分](./DP/139.word-break.md)
     - [整数拆分](./DP/343.integer-break.md)
 
-
 4. 排序
     - [冒泡](./sort/463.整数排序.md)
     - [快排、归并](./sort/464.整数排序II.md)
         - [利用快排，找K大/小元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
     - [桶/多关键字排序](./sort/multi-keyword-sort.md)
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
+
 5. 树
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
     
-    - [404.左叶子之和](我是用dfs做的)
-    - [翻转二叉树 dfs/BFS](./tree/226.invert-binary-tree.md)
+    - 深搜
+        + [监控二叉树](./tree/968.binary-tree-cameras.cpp)
+        + [404.左叶子之和](我是用dfs做的)
+        + [翻转二叉树 dfs/BFS](./tree/226.invert-binary-tree.md)
 
     - 二叉树深度
         - [求 最小深度 dfs/BFS](./tree/111.minimum-depth-of-binary-tree.md)
