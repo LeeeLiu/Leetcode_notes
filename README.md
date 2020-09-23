@@ -55,6 +55,7 @@
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
     
     - 深搜
+        + [合并二叉树](./tree/617.merge-two-binary-trees.md)
         + [监控二叉树](./tree/968.binary-tree-cameras.cpp)
         + [404.左叶子之和](我是用dfs做的)
         + [翻转二叉树 dfs/BFS](./tree/226.invert-binary-tree.md)
