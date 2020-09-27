@@ -55,6 +55,8 @@
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
     
     - 深搜
+        + [235.BST的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+            * dfs 或者 递归 都可以
         + [合并二叉树](./tree/617.merge-two-binary-trees.md)
         + [监控二叉树](./tree/968.binary-tree-cameras.cpp)
         + [404.左叶子之和](我是用dfs做的)
