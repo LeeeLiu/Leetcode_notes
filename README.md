@@ -54,6 +54,11 @@
 5. 树
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
     
+    - 由 前/中/后 遍历序列，构造二叉树
+        * [前序+中序](./tree/105.construct-binary-tree-from-preorder-and-inorder-traversal.cpp)
+        * [中序+后序](./tree/106.construct-binary-tree-from-inorder-and-postorder-traversal.cpp)
+        * [前序+后序](./tree/889.construct-binary-tree-from-preorder-and-postorder-traversal.cpp)
+
     - 深搜
         + [235.BST的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
             * dfs 或者 递归 都可以
