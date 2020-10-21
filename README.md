@@ -136,6 +136,8 @@
     - [3.没有重复字母的最长Substring](./array/3.longest-substring-without-repeating-characters.md)
     - [209.长度最小的子数组](./array/209.minimum-size-subarray-sum.md)
 15. 双指针
+    - [925.长按键入](https://leetcode-cn.com/problems/long-pressed-name/)
+    - [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
 16. 模拟
     - [557.反转字符串中的单词III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
@@ -147,8 +149,9 @@
 17. 字符串
     - [计数二进制子串](./array/696.count-binary-substrings.md)
         + 没有奇技淫巧
-19. 栈
+19. 栈    
     - [有效的括号](./stack/20.valid-parentheses.cpp)
+    - [比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/)
 20. 回文
     - 子串类
         + [最长 回文 子串](.\array\5.LongestPalindromicSubstring.md)
