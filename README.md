@@ -92,6 +92,7 @@
     - [114.二叉树-原地-单链表-前序序列(需二刷)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/submissions/)
 
     - [BST(binary-search-tree,二叉搜索/排序/查找树)]
+        * [701.BST的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
         * [由1-n生成所有BST](./tree/95.unique-binary-search-trees-ii.md)
         * [BST变AVL(平衡BST)](./tree/balance-a-binary-search-tree.md)
         * [由 递增 数组/链表 序列 建AVL](./tree/109.convert-sorted-list-to-binary-search-tree.md)
@@ -147,12 +148,16 @@
         - [字符串数字相加](./array/415.add-strings.cpp)
         - [链表相加-反序](.\list\2.add-two-numbers.md)
 17. 字符串
+    - [459.判断 字符串 是否 由 一个子串 重复构成](https://leetcode-cn.com/problems/repeated-substring-pattern/)
     - [计数二进制子串](./array/696.count-binary-substrings.md)
         + 没有奇技淫巧
 19. 栈    
     - [有效的括号](./stack/20.valid-parentheses.cpp)
     - [比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/)
 20. 回文
+    - 链表
+        + [234.判断 是否为 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+        + `\list`里 整理 过
     - 子串类
         + [最长 回文 子串](.\array\5.LongestPalindromicSubstring.md)
         + [回文 子串 个数](.\array\647.palindromic-substrings.md)
