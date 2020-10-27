@@ -49,6 +49,11 @@
     - [快排、归并](./sort/464.整数排序II.md)
         - [利用快排，找K大/小元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
     - [桶/多关键字排序](./sort/multi-keyword-sort.md)
+    
+    - 桶排序
+        + [1365.有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
+            * 两次提交，两种方法
+    
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 
 5. 树
