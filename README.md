@@ -151,6 +151,7 @@
     - [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
 16. 模拟
+    - [941.有效的山脉数组](./array/941.valid-mountain-array.cpp)
     - [557.反转字符串中的单词III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
     - [657.机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin/)
         + 太简单 就不记笔记了 (1)坐标模拟x==0且y==0 (2)L==R且U==D
