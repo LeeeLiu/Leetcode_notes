@@ -174,5 +174,10 @@
         + [回文 子串 个数](.\array\647.palindromic-substrings.md)
 21. 矩阵
     - [463.岛屿的周长](https://leetcode-cn.com/submissions/detail/119674908/)
-    
+
+22. 本质是同类别的题：
+    - 区别是，初始化条件不同
+        - [70. 爬楼梯](https://leetcode-cn.com/submissions/detail/136226647/)
+        - [509. 斐波那契数](https://leetcode-cn.com/submissions/detail/135853013/)
+
 ###  持续整理中
