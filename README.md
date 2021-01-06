@@ -1,6 +1,6 @@
-﻿## leetcode、lintcode笔记
+﻿## 做题笔记
 
-### Typical Questions：
+### 按照知识点分类
 1. 链表
     - [快慢指针 找中间结点](./list/876.middle-of-the-linked-list.cpp)
     - 链表反转
@@ -43,6 +43,8 @@
         * [两数组公共、最长的`子/串数组`长度](./DP/718.maximum-length-of-repeated-subarray.md)
     - [单词拆分](./DP/139.word-break.md)
     - [整数拆分](./DP/343.integer-break.md)
+
+    - [746.使用最小花费爬楼梯](https://leetcode-cn.com/submissions/detail/132697872/)
 
 4. 排序
     - [冒泡](./sort/463.整数排序.md)
@@ -125,7 +127,10 @@
 8. 并查集
     - [情侣牵手](./unionFind/765.couples_holding_hands.md)
 9. 位运算
-    - [落单数字](./bitmanipulation/136.SingleNumber.md)
+    - 自己和自己异或 == 0
+    - 任何数字 异或 0 == 自己
+    - 389.找不同
+    - [136.只出现一次的数字](./bitmanipulation/136.SingleNumber.md)
 10. 二分查找
     - [两数之和II：有序数组](./binarySearch/167.two-sum-ii-input-array-is-sorted.md)
         * 也可以双指针
@@ -147,10 +152,17 @@
     - [3.没有重复字母的最长Substring](./array/3.longest-substring-without-repeating-characters.md)
     - [209.长度最小的子数组](./array/209.minimum-size-subarray-sum.md)
 15. 双指针
+    - 922.按奇偶排序数组 II
+        - 方法一 https://leetcode-cn.com/submissions/detail/132707572/
+        - 方法二 https://leetcode-cn.com/submissions/detail/132717247/
     - [925.长按键入](https://leetcode-cn.com/problems/long-pressed-name/)
     - [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
 16. 模拟
+    - 49.字母异位词分组（方法：先把每个单词排序，再分组。排序后的单词作为Key，原单词作为value）
+    - [118. 杨辉三角](https://leetcode-cn.com/submissions/detail/131133408/)
+    - [48. 旋转图像](https://leetcode-cn.com/submissions/detail/132115226/)
+
     - [941.有效的山脉数组](./array/941.valid-mountain-array.cpp)
     - [557.反转字符串中的单词III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
     - [657.机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin/)
@@ -175,9 +187,16 @@
 21. 矩阵
     - [463.岛屿的周长](https://leetcode-cn.com/submissions/detail/119674908/)
 
-22. 本质是同类别的题：
-    - 区别是，初始化条件不同
-        - [70. 爬楼梯](https://leetcode-cn.com/submissions/detail/136226647/)
-        - [509. 斐波那契数](https://leetcode-cn.com/submissions/detail/135853013/)
+22. 贪心
+    - [435.无重叠区间](https://leetcode-cn.com/submissions/detail/135045888/)
+        - 先按照 区间 右端点 排序
+
+
+
+### 同类别的题目整理
+1. 区别是，初始化条件不同
+    - [70. 爬楼梯](https://leetcode-cn.com/submissions/detail/136226647/)
+    - [509. 斐波那契数](https://leetcode-cn.com/submissions/detail/135853013/)
+
 
 ###  持续整理中
