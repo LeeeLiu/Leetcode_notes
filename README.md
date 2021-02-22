@@ -147,8 +147,10 @@
     - [不能同时多笔交易（交易1次→次数不限→最多2次→最多k次）👉可以同时多笔交易](./array/123.BestTimetoBuyandSellStockIII.md)
     - [含冷冻期：不能同时多笔交易-次数不限(需二刷)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/zui-jia-mai-mai-gu-piao-shi-ji-han-leng-dong-qi-4/)
 12. 堆
+    - [703.数据流中的 第K大 元素](https://leetcode-cn.com/submissions/detail/147456468/)
     - [215.找K大元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
 13. 滑动窗口
+    - [567. 字符串的排列](https://leetcode-cn.com/submissions/detail/147574860/)
     - [3.没有重复字母的最长Substring](./array/3.longest-substring-without-repeating-characters.md)
     - [209.长度最小的子数组](./array/209.minimum-size-subarray-sum.md)
 15. 双指针
@@ -159,6 +161,9 @@
     - [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
 16. 模拟
+    - [697. 数组的度](https://leetcode-cn.com/problems/degree-of-an-array/submissions/)
+    - [485. 最大连续 1 的个数](https://leetcode-cn.com/submissions/detail/146704598/)
+    - [566. 重塑矩阵](https://leetcode-cn.com/submissions/detail/146675048/)
     - 49.字母异位词分组（方法：先把每个单词排序，再分组。排序后的单词作为Key，原单词作为value）
     - [118. 杨辉三角](https://leetcode-cn.com/submissions/detail/131133408/)
     - [48. 旋转图像](https://leetcode-cn.com/submissions/detail/132115226/)
@@ -192,11 +197,13 @@
         - 先按照 区间 右端点 排序
 
 
-
 ### 同类别的题目整理
 1. 区别是，初始化条件不同
     - [70. 爬楼梯](https://leetcode-cn.com/submissions/detail/136226647/)
     - [509. 斐波那契数](https://leetcode-cn.com/submissions/detail/135853013/)
+2. 区别是，一个是子数组，一个是子序列
+    - [978. 最长湍流子数组](https://leetcode-cn.com/submissions/detail/147736685/)
+    - [376. 摆动序列](https://leetcode-cn.com/submissions/detail/147740109/)
 
 
 ###  持续整理中
