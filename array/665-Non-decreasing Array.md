@@ -1,4 +1,5 @@
-### 665. Non-decreasing Array
+
+### 665. Non-decreasing Array，非递减数组
 >描述：对于数组array，如果最多修改一个元素，即可成为递增数组（array[i] <= array[i + 1]），那么输出true。否则输出false。n∈[1, 10,000]。
 Given an array with n integers, your task is to check if it could become non-decreasing by modifying at most 1 element. 
 We define an array is non-decreasing if array[i] <= array[i + 1] holds for every i (1 <= i < n). 
