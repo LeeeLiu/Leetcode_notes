@@ -150,7 +150,9 @@
     - [703.数据流中的 第K大 元素](https://leetcode-cn.com/submissions/detail/147456468/)
     - [215.找K大元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
 13. 滑动窗口
-    - [567. 字符串的排列](https://leetcode-cn.com/submissions/detail/147574860/)
+    - [424. 替换后的最长重复字符](https://leetcode-cn.com/submissions/detail/148926379/)
+    - [1052.爱生气的书店老板](https://leetcode-cn.com/submissions/detail/147836615/)
+    - [567.字符串的排列](https://leetcode-cn.com/submissions/detail/147574860/)
     - [3.没有重复字母的最长Substring](./array/3.longest-substring-without-repeating-characters.md)
     - [209.长度最小的子数组](./array/209.minimum-size-subarray-sum.md)
 15. 双指针
