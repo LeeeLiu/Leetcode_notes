@@ -150,7 +150,12 @@
     - [703.数据流中的 第K大 元素](https://leetcode-cn.com/submissions/detail/147456468/)
     - [215.找K大元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
 13. 滑动窗口
-    - [424. 替换后的最长重复字符](https://leetcode-cn.com/submissions/detail/148926379/)
+    - [643.子数组最大平均数 I](https://leetcode-cn.com/submissions/detail/149913795/)
+    - [1423.可获得的最大点数](https://leetcode-cn.com/submissions/detail/149947703/)
+    
+    - [1208.尽可能使字符串相等](https://leetcode-cn.com/submissions/detail/149952212/)
+    - [424.替换后的最长重复字符](https://leetcode-cn.com/submissions/detail/148926379/)
+    
     - [1052.爱生气的书店老板](https://leetcode-cn.com/submissions/detail/147836615/)
     - [567.字符串的排列](https://leetcode-cn.com/submissions/detail/147574860/)
     - [3.没有重复字母的最长Substring](./array/3.longest-substring-without-repeating-characters.md)
@@ -197,7 +202,8 @@
 22. 贪心
     - [435.无重叠区间](https://leetcode-cn.com/submissions/detail/135045888/)
         - 先按照 区间 右端点 排序
-
+23. 前缀和
+    - [303. 区域和检索-数组不可变](https://leetcode-cn.com/submissions/detail/149899609/)
 
 ### 同类别的题目整理
 1. 区别是，初始化条件不同
