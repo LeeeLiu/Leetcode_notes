@@ -38,9 +38,11 @@
         * [有障碍物-有多少种走法](./DP/63.uniquePathsWithObstacles.cpp)
     - [44.通配符匹配(需二刷)](https://leetcode-cn.com/problems/wildcard-matching/solution/tong-pei-fu-pi-pei-by-leetcode-solution/)
     - [最长有效括号](./DP/32.longest-valid-parentheses.md)
-    - [子序列/子串：公共长度问题]
+    
+    - [300.最长递增子序列](https://leetcode-cn.com/submissions/detail/150822273/)
+    - [子序列/子串：公共长度问题，都是DP，只有一个转移方程不同]
         * [两数组公共、最长的`子序列`长度](./DP/1143.LongestCommonSubsequence.md)
-        * [两数组公共、最长的`子/串数组`长度](./DP/718.maximum-length-of-repeated-subarray.md)
+        * [两数组公共、最长的`子串/数组`长度](./DP/718.maximum-length-of-repeated-subarray.md)
     - [单词拆分](./DP/139.word-break.md)
     - [整数拆分](./DP/343.integer-break.md)
 
