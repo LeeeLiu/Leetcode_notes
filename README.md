@@ -209,8 +209,8 @@
 
 ### 同类别的题目整理
 1. 区别是，初始化条件不同
-    - [70. 爬楼梯](https://leetcode-cn.com/submissions/detail/136226647/)
-    - [509. 斐波那契数](https://leetcode-cn.com/submissions/detail/135853013/)
+    - [70. 爬楼梯](https://leetcode-cn.com/submissions/detail/157763030/)
+    - [509. 斐波那契数](https://leetcode-cn.com/submissions/detail/157762183/)
 2. 区别是，一个是子数组，一个是子序列
     - [978. 最长湍流子数组](https://leetcode-cn.com/submissions/detail/147736685/)
     - [376. 摆动序列](https://leetcode-cn.com/submissions/detail/147740109/)
