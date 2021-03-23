@@ -196,8 +196,8 @@
         + [234.判断 是否为 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
         + `\list`里 整理 过
     - 子串类
-        + [最长 回文 子串](.\array\5.LongestPalindromicSubstring.md)
-        + [回文 子串 个数](.\array\647.palindromic-substrings.md)
+        + [最长 回文 子串](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/5.LongestPalindromicSubstring.md)
+        + [回文 子串 个数](./array/647.palindromic-substrings.md)
 21. 矩阵
     - [463.岛屿的周长](https://leetcode-cn.com/submissions/detail/119674908/)
 
