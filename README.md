@@ -183,7 +183,7 @@
         + 太简单 就不记笔记了 (1)坐标模拟x==0且y==0 (2)L==R且U==D
     - 加法
         - [字符串数字相加](./array/415.add-strings.cpp)
-        - [链表相加-反序](.\list\2.add-two-numbers.md)
+        - [链表相加-反序](./list/2.add-two-numbers.md)
 17. 字符串
     - [459.判断 字符串 是否 由 一个子串 重复构成](https://leetcode-cn.com/problems/repeated-substring-pattern/)
     - [计数二进制子串](./array/696.count-binary-substrings.md)
