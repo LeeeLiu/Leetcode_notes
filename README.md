@@ -170,6 +170,7 @@
     - [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
 16. 模拟
+    - [7. 整数反转](https://leetcode-cn.com/submissions/detail/170524523/)
     - [697. 数组的度](https://leetcode-cn.com/problems/degree-of-an-array/submissions/)
     - [485. 最大连续 1 的个数](https://leetcode-cn.com/submissions/detail/146704598/)
     - [566. 重塑矩阵](https://leetcode-cn.com/submissions/detail/146675048/)
