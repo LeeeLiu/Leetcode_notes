@@ -94,6 +94,7 @@
         * [17.13.恢复空格(需二刷)](./tree/re-space-lcci.md)：`单词拆分`DP思路会超时👉字典树+DP
             + 字典树里反序插入单词
     - 路径
+        - [二叉树路径汇总](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/yi-pian-wen-zhang-jie-jue-suo-you-er-cha-kcb0/)
         - [路径总和II](./tree/113.path-sum-ii.md)
             + 返回所有sum==target路径
         - [路径总和](./tree/112.path-sum.md)
