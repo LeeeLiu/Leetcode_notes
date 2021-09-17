@@ -23,6 +23,8 @@
         - [组合总和III](./backtracking/216.combination-sum-iii.cpp)
     + 其它
         - [预测赢家 dfs或DP ](./DP/486.predict-the-winner.md)
+        - [N皇后](https://leetcode-cn.com/submissions/detail/218478975/)
+        - [解数独](https://leetcode-cn.com/submissions/detail/220502615/)
    
 3. 动态规划
     - [背包系列](./backpack/背包系列.md)
@@ -193,6 +195,7 @@
     - [计数二进制子串](./array/696.count-binary-substrings.md)
         + 没有奇技淫巧
 19. 栈    
+    - [227. 基本计算器 II](https://leetcode-cn.com/submissions/detail/220517302/)
     - [有效的括号](./stack/20.valid-parentheses.cpp)
     - [比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/)
 20. 回文
