@@ -69,6 +69,7 @@
         * [前序+后序](./tree/889.construct-binary-tree-from-preorder-and-postorder-traversal.cpp)
 
     - 深搜
+        + [二叉树的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/submissions/)
         + [701.二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
             * dfs 或者 迭代
         + [235.BST的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
