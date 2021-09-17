@@ -134,6 +134,8 @@
     - 任何数字 异或 0 == 自己
     - 389.找不同
     - [136.只出现一次的数字](./bitmanipulation/136.SingleNumber.md)
+    - [面试题 17.19. 消失的两个数字](https://leetcode-cn.com/problems/missing-two-lcci/solution/python3-liang-chong-fang-fa-qiu-que-shi-xyhq0/)
+        + 利用两数之和、两数之积
 10. 二分查找
     - [两数之和II：有序数组](./binarySearch/167.two-sum-ii-input-array-is-sorted.md)
         * 也可以双指针
