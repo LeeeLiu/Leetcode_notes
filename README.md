@@ -7,7 +7,7 @@
         - [整个反转](https://github.com/LeeeLiu/Leetcode_notes/blob/master/list/206%EF%BC%8C234.md)
         - [指定区域反转](https://github.com/LeeeLiu/Leetcode_notes/blob/master/list/92.%20Reverse%20Linked%20List%20II.md)
 2. 分治：
-    - [最大子列和](https://github.com/LeeeLiu/Leetcode_notes/blob/master/array/53.%20Maximum%20Subarray.md)
+    - [最大子列和](./array/53.%20Maximum%20Subarray.md)
 
 3. 回溯/递归
     + 全排列问题，用visited变量；
@@ -23,11 +23,11 @@
         - [组合总和III](./backtracking/216.combination-sum-iii.cpp)
     + 其它
         - [预测赢家 dfs或DP ](./DP/486.predict-the-winner.md)
-   
-3. 动态规划
+
+4. 动态规划
     - [背包系列](./backpack/背包系列.md)
     - [最值型、计数型、存在型](./summary/动态规划.md)
-    
+
     - 区间型
         * [戳气球](./DP/312.burst-balloons.md)
     - [三角形最小路径和](./DP/120.triangle.md)
@@ -48,7 +48,7 @@
 
     - [746.使用最小花费爬楼梯](https://leetcode-cn.com/submissions/detail/132697872/)
 
-4. 排序
+5. 排序
     - [冒泡](./sort/463.整数排序.md)
     - [快排、归并](./sort/464.整数排序II.md)
         - [利用快排，找K大/小元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
@@ -60,7 +60,7 @@
     
     - [最高频的前K元素](./sort/top-k-frequent-elements.md)
 
-5. 树
+6. 树
     - [二叉树遍历 三种dfs + bfs](./tree/BinaryTreeTraversal.md)
     
     - 由 前/中/后 遍历序列，构造二叉树
@@ -111,12 +111,12 @@
         * [BST变AVL(平衡BST)](./tree/balance-a-binary-search-tree.md)
         * [由 递增 数组/链表 序列 建AVL](./tree/109.convert-sorted-list-to-binary-search-tree.md)
         * [BST->累加树：反向中序](./tree/538.convert-bst-to-greater-tree.cpp)
-18. 图
+7. 图
     - [钥匙和房间 dfs bfs](./graph/841.keys-and-rooms.md)
     - [图像渲染 dfs](./graph/733.flood-fill.cpp)
     - [克隆图 dfs bfs](./graph/133.clone-graph.md)
 
-6. BFS
+8. BFS
     - [拓扑排序-课程表](./graph/207.course-schedule.md)
     - [785.判断二分图](./graph/785.is-graph-bipartite.md)
     - [能否到达终点](./summary/ChallengeCAT/1479-can-reach-the-endpoint.cpp)
@@ -124,16 +124,16 @@
         - [单源-无权图](./graph/120.word-ladder.md)
         - [单源+多源有权图：Dijstra+Floyd](./graph/743.network-delay-time.md)
 
-7. 输出所有路径
+9. 输出所有路径
     - [单源-无权图](./graph/121.word-ladderII.md)
-8. 并查集
+10. 并查集
     - [情侣牵手](./unionFind/765.couples_holding_hands.md)
-9. 位运算
+11. 位运算
     - 自己和自己异或 == 0
     - 任何数字 异或 0 == 自己
     - 389.找不同
     - [136.只出现一次的数字](./bitmanipulation/136.SingleNumber.md)
-10. 二分查找
+12. 二分查找
     - [两数之和II：有序数组](./binarySearch/167.two-sum-ii-input-array-is-sorted.md)
         * 也可以双指针
     - [在排序数组里找插入位置](./binarySearch/search-insert-position.md)
@@ -145,13 +145,13 @@
             + 遍历数组，返回第一个比首位元素小的值，就是最小值。
 
     - [有序矩阵中第K小的元素](./binarySearch/378.kth-smallest-element-in-a-sorted-matrix.md)
-11. 买卖股票类
+13. 买卖股票类
     - [不能同时多笔交易（交易1次→次数不限→最多2次→最多k次）👉可以同时多笔交易](./array/123.BestTimetoBuyandSellStockIII.md)
     - [含冷冻期：不能同时多笔交易-次数不限(需二刷)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/zui-jia-mai-mai-gu-piao-shi-ji-han-leng-dong-qi-4/)
-12. 堆
+14. 堆
     - [703.数据流中的 第K大 元素](https://leetcode-cn.com/submissions/detail/147456468/)
     - [215.找K大元素](./summary/ChallengeCAT/215.KthLargestElementinanArray.md)
-13. 滑动窗口
+15. 滑动窗口
     - [643.子数组最大平均数 I](https://leetcode-cn.com/submissions/detail/149913795/)
     - [1423.可获得的最大点数](https://leetcode-cn.com/submissions/detail/149947703/)
     
@@ -162,14 +162,14 @@
     - [567.字符串的排列](https://leetcode-cn.com/submissions/detail/147574860/)
     - [3.没有重复字母的最长Substring](./array/3.longest-substring-without-repeating-characters.md)
     - [209.长度最小的子数组](./array/209.minimum-size-subarray-sum.md)
-15. 双指针
+16. 双指针
     - 922.按奇偶排序数组 II
         - 方法一 https://leetcode-cn.com/submissions/detail/132707572/
         - 方法二 https://leetcode-cn.com/submissions/detail/132717247/
     - [925.长按键入](https://leetcode-cn.com/problems/long-pressed-name/)
     - [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
     - [判断s是否为t的子序列](./greedy/392.is-subsequence.cpp)
-16. 模拟
+17. 模拟
     - [7. 整数反转](https://leetcode-cn.com/submissions/detail/170524523/)
     - [697. 数组的度](https://leetcode-cn.com/problems/degree-of-an-array/submissions/)
     - [485. 最大连续 1 的个数](https://leetcode-cn.com/submissions/detail/146704598/)
@@ -185,7 +185,7 @@
     - 加法
         - [字符串数字相加](./array/415.add-strings.cpp)
         - [链表相加-反序](./list/2.add-two-numbers.md)
-17. 字符串
+18. 字符串
     - [459.判断 字符串 是否 由 一个子串 重复构成](https://leetcode-cn.com/problems/repeated-substring-pattern/)
     - [计数二进制子串](./array/696.count-binary-substrings.md)
         + 没有奇技淫巧
